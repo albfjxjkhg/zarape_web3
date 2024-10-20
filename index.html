@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+
+
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Estados</title>
+    <script src="js/main.js" defer></script> <!-- Enlace a tu archivo JavaScript -->
+</head>
+<body>
+    <h1>Seleccione un Estado</h1>
+
+    <!-- Dropdown para cargar los estados -->
+    <label for="estadoSelect">Estados:</label>
+    <select id="estadoSelect">
+        <option value="">Cargando estados...</option>
+    </select>
+
+    <!-- Mensaje en caso de error al cargar -->
+    <p id="errorMessage" style="color:red; display:none;">Error al cargar los estados</p>
+
+    <footer>
+        <p>Aplicación Zarape</p>
+    </footer>
+</body>
+</html>
